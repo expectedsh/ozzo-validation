@@ -47,8 +47,8 @@ type (
 )
 
 var (
-	// ErrorTag is the struct tag name used to customize the error field name for a struct field.
-	ErrorTag = "json"
+	// ErrorTags is the struct tag name used to customize the error field name for a struct field.
+	ErrorTags = []string{"json", "query", "path", "header", "ctx"}
 
 	// Skip is a special validation rule that indicates all rules following it should be skipped.
 	Skip = skipRule{skip: true}
