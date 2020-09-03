@@ -6,9 +6,10 @@
 package is
 
 import (
-	validation "github.com/go-ozzo/ozzo-validation/v4"
 	"regexp"
 	"unicode"
+
+	"github.com/expectedsh/ozzo-validation/v4"
 
 	"github.com/asaskevich/govalidator"
 )
